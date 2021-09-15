@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>938.jpg</filename>
+	<path>F:\stagesepx\image_set_for_train\zhuiwan\show_yuyin\JPEGImages\938.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>avatar</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>222</ymin>
+			<xmax>417</xmax>
+			<ymax>318</ymax>
+		</bndbox>
+	</object>
+</annotation>
