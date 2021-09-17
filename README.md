@@ -103,5 +103,6 @@ If you want to use original pretrained weights for YOLOv3:
 1. 使用labelImg对图像进行标注，标注格式选 VOC (可以对标注完的图片和xml文件进行复制扩充样本库)
 2. 使用voc_make_main_text.py对标注结果进行类型划分，划分成 训练集、校验集 等
 3. 使用voc_annotation.py对数据集分类再次转换格式，转换成 yolo3 适用的数据集分类格式
+5. 下载[yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)， 并使用convert.py将weigth转换成h5。 python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5
 4. 使用train.py文件进行训练，注意需要使用 tensorflow2 + keras=2.4.3
 5. 使用yolo.py文件进行图片识别，注意需要使用 tensorflow1.15.0 + keras=2.4.3
